@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_taggy/flutter_taggy.dart';
 
 // import 'package:google_fonts/google_fonts.dart';
 
@@ -6,6 +7,7 @@ import 'app.dart';
 import 'service_locator.dart';
 
 void main() async {
+  Taggy.initialize();
   await setupServiceLocator();
   runApp(const App());
 }

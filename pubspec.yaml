@@ -31,8 +31,10 @@ dependencies:
   flutter_secure_storage: ^9.0.0
   path_provider: ^2.1.0
   get_it: ^7.6.4
-  # just_audio: ^0.9.31
-  # audio_service: ^0.18.9
+  audio_video_progress_bar: ^2.0.1
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+
 
   flutter:
     sdk: flutter
@@ -43,7 +45,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   isar: ^3.1.0+1
   isar_flutter_libs: ^3.1.0+1
-
+  flutter_taggy: ^0.1.2+3
 dev_dependencies:
   flutter_test:
     sdk: flutter
